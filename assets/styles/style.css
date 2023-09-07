@@ -194,6 +194,8 @@ h3 {
   background-color: #000;
   color: #fff;
   padding: 2%;
+  position: relative;
+  padding-bottom: 99px;
 }
 
 .rem {
@@ -233,7 +235,7 @@ h3 {
   }
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width: 768px) {
   .auto1 {
     font-size: 20px;
     text-align: center;
@@ -241,7 +243,25 @@ h3 {
   }
 
   .auto2 {
-    font-size: 16px;
+    font-size: 20px;
     justify-content: center;
+  }
+
+  .last2 {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .last2 {
+    margin-left: 40%;
+  }
+
+  .auto {
+    margin: 0 auto;
+  }
+
+  .all2 {
+    margin: 0 auto;
   }
 }
